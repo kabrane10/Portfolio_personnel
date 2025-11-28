@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 220, 247);
+    font-family: Poppins;
+}
+/*==============================Entête===========================*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding: -100px 15px;
+    padding-right: 50px;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    margin-left: -30px;
+    font-size: 28px;
+    font-family: Poppins;
+    color: rgb(156, 41, 250);
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav a{
+    color: black;
+    align-items: center;
+    font-weight: 1000;
+    text-decoration: none;
+}
+nav button{
+    background-color: black;
+    color: #fff;
+    padding: 15px 15px;
+    border: solid;
+    border-radius: 5px;
+}
+button{
+    background-color: black;
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+#btn{
+    background-color: #fff;
+    color: black;
+    padding: 15px 20px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 20px
+    
+}
+
+/*====================================Home ou presentation==============================*/
+.pres{
+    display: flex;
+}
+#presentation{
+    margin: 35px;
+    margin-top: 50px;
+    line-height: 25px;
+
+}
+#presentation h2{
+    color: rgb(93, 28, 150);
+    font-weight: 180;
+    
+}
+#presentation h1{
+    line-height: 40px;
+}
+#img{
+    height: 450px;
+    margin-left: 150px;
+    width: 325px;
+    background-color: none;
+}
+/*======================================A propos de moi========================(chat)*/
+.fond_noir{
+    background-color: black;
+    padding-top: 20px;
+}
+.titre {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+    
+    
+.paragraphe {
+    color: #cfcfcf;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.8;
+    max-width: 850px;
+    margin: 0 auto 60px;
+}
+.status {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    
+}
+    
+    
+.stat_nbre {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f3c6c6;
+    margin-bottom: 10px;
+}
+    
+    
+.stat_label {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+    
+    
+    /* Responsive */
+@media (max-width: 768px){
+    .stats {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+    
+    
+.titre {
+    font-size: 24px;
+}
+    
+.stat-nbre {
+    font-size: 36px;
+}
+
+.stat_box_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.demi_cercle{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(180deg, #6a5acd, #4b3fa1);
+    border-radius: 200px 200px 0 0;
+    margin: 60px auto 0;
+    margin-top: 4px;
+
+}
+
+/*=============================Services============================*/
+.section_service{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-bottom: -25px;
+    background-color: #fff;
+}
+.serv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+    
+    
+
+}
+
+
+/*====================================partie Mes realisations==========================*/
+
+.section_realisation{
+    background-color: #fff;
+    margin-bottom: -17px;
+    
+    text-align: center;
+
+}
+.rondelle{
+    
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: -15px  /*permettre aux rondelles des se placer sur la mm ligne que les p_real*/
+    
+}
+#rond{
+    margin-left: 190px;
+}
+
+#p_real{
+    justify-content: center;
+    margin-bottom: 41px;
+    margin-top: -20px;  /*permettre les p_real de se rapprocher des h4*/
+}
+.hight{
+    background-color: rgb(228, 213, 238);
+    padding-bottom: 115px;  /*elargir la marge interieur pour avoir une partie de la classe realisation*/
+    padding-top: 10px;
+}
+.realisation{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -90px;  /*prendre une partie de l'entte*/
+    text-align: left;
+    margin-left: 80px;
+    line-height: 10px;
+    margin-right: 20px;
+    gap: 10px;
+
+
+}
+#tof{
+    height: 175px;
+    width: 325px;
+    border-radius: 0%;
+}
+
+/*==============================================partie compétences===========================*/
+
+.competences{
+    background-color: #fff;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+
+.entete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+}
+.entete, p{
+    margin-top: 5px;
+}
+
+.container_comp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: -10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+}
+
+#id{
+    display: inline-flex; /*aligner les nbres en % */
+    border:  solid #000;
+    min-width: 450px;
+    background: linear-gradient(to right, #000 270px, #fff 180px);
+    height: -1px;
+
+}
+h3{
+padding-top: -10px;
+    
+}
+
+/*.progress{
+    border-radius: none;
+}*/
+
+/*=========================================partie temoignage==================================*/
+
+.temoignage{
+    background-color: rgb(228, 213, 238); 
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-family: Poppins;
+    align-items: center;
+}
+#demi-cir{
+    height: 75px;
+    width: 150px;
+    border-radius: 0%;
+    padding-bottom: 25px;
+    margin-top: 0%;
+}
+.texte{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    gap: 158px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.paragraphe{
+    align-items: center;
+
+}
+
+.texte img{
+    height: 40px;
+    width: 40px;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+img{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    
+}
+
+/*=========================================partie Contacter nous======================*/
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: red;
+    margin-left: -150px;
+    margin-bottom: -110px;
+}
+#p{
+    margin-left: -10px;
+    text-align: center;
+}
+input, textarea{
+    border: 1px solid;
+    padding: 8px;
+    width: 80%;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+input{
+    
+    margin-bottom: 20px;
+}
+#h1{
+    margin-left: -250px;
+    margin-bottom: 8px;
+}
+textarea{
+    padding: 20px;
+    width: 76%;
+}
+.inp{
+    margin-top: 30px;
+    
+}
+#envoyer{
+    margin-top: 60px;
+    margin-right: 24.5em;
+}
+ul{
+    justify-content: center;
+    list-style: none;
+    margin-left: -290px;
+    line-height: 45px;
+    margin-top: 20px;
+}
+#li1{
+    margin-left: -85px; 
+}
+#li2{
+    margin-left: -135px;
+}
+
+#li3{
+    margin-left: -10px;
+}
+li img{
+    height: 18px;
+    width: 18px;
+    margin-bottom: -3px;
+    
+    
+}
+
+.logos{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+/*====================================partie finale footer================*/
+.finale{
+    background-color: #000;
+    color: #fff;
+
+}
+.fin_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+#p_fin{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #fff;
+}
+
+#imge{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    margin-right: 5px;
+}
+#tec{
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: -35px;
+    margin-right: 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.imag{
+    height: 30px;
+    width: 30px;
+}
+.footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
