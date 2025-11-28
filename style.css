@@ -37,10 +37,14 @@ nav{
     gap: 20px;
 }
 nav a{
+    
     color: black;
     align-items: center;
     font-weight: 1000;
     text-decoration: none;
+}
+nav a:hover{
+    transform: scale(1.2);
 }
 nav button{
     background-color: black;
@@ -48,12 +52,14 @@ nav button{
     padding: 15px 15px;
     border: solid;
     border-radius: 5px;
+    cursor: pointer;
 }
 button{
     background-color: black;
     color: #fff;
     padding: 15px 50px;
     border-radius: 5px;
+    cursor: pointer;
 }
 #btn{
     background-color: #fff;
@@ -89,6 +95,11 @@ button{
     margin-left: 150px;
     width: 325px;
     background-color: none;
+    transition: transform 0.3s ease; 
+}
+
+#img:hover{
+    transform: scale(1.2);
 }
 /*======================================A propos de moi========================(chat)*/
 .fond_noir{
@@ -174,6 +185,10 @@ button{
     margin-top: 4px;
 
 }
+.demi_cercle:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 /*=============================Services============================*/
 .section_service{
@@ -212,6 +227,10 @@ button{
     margin-bottom: -15px  /*permettre aux rondelles des se placer sur la mm ligne que les p_real*/
     
 }
+.rondelle:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 #rond{
     margin-left: 190px;
 }
@@ -243,6 +262,9 @@ button{
     height: 175px;
     width: 325px;
     border-radius: 0%;
+}
+#tof:hover{
+    transform: scale(1.2);
 }
 
 /*==============================================partie compétences===========================*/
@@ -342,6 +364,10 @@ img{
     border-radius: 100%;
     
 }
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 /*=========================================partie Contacter nous======================*/
 
@@ -361,6 +387,7 @@ img{
     background-color: red;
     margin-left: -150px;
     margin-bottom: -110px;
+    cursor: pointer;
 }
 #p{
     margin-left: -10px;
@@ -393,6 +420,8 @@ textarea{
 #envoyer{
     margin-top: 60px;
     margin-right: 24.5em;
+    
+    cursor: pointer;
 }
 ul{
     justify-content: center;
@@ -418,6 +447,10 @@ li img{
     
     
 }
+li img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 .logos{
     display: flex;
@@ -425,6 +458,9 @@ li img{
     margin-left: 40px;
     padding-top: 30px;
     align-items: center;
+}
+.logos:hover{
+    transform: scale(1.2);
 }
 
 /*====================================partie finale footer================*/
@@ -458,6 +494,11 @@ a{
     color: #fff;
     margin-right: 5px;
 }
+#image:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
 #tec{
     font-size: 15px;
     font-weight: 900;
@@ -474,6 +515,14 @@ a{
     height: 30px;
     width: 30px;
 }
+
+.imag:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+
+}
+
 .footer{
     text-align: center;
     padding-bottom: 20px;
