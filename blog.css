@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 220, 247);
+    font-family: Poppins;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: blueviolet;
+    
+}
+
+header{
+    display: flex;
+    gap: 40px;
+    align-items: justify;
+    margin: 0 150px;
+}
+.profil{
+    display: flex;
+    align-items: justify;
+    border-radius: 10px;
+    padding-right: 10px;
+    background:linear-gradient(135deg,#fde68a,#fda4af);
+}
+.avatar{
+    width:400px;
+    height:200px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#fde68a,#fda4af);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    font-size: xx-large;
+}
+.avatar:hover{
+    transform: scale(1.2);
+}
+
+
+h2, #entête{
+    align-items: center;
+}
+
+#img1{
+    height: 200px;
+    width: 200px;
+
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+.div{
+    padding:12px;
+    border-radius:8px;
+    background:white;
+    box-shadow:0 1px 4px rgba(16,24,40,.05);
+    text-align: center;
+}
+
+.texte-long {
+    overflow: hidden; /* Cache le texte qui dépasse */
+    max-height: 0; /* Cache la hauteur du texte */
+    transition: max-height 0.3s ease-out; /* Animation de transition douce */
+  }
+  
+.voir{
+    
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.texte_long {
+    overflow: hidden; /* Cache le texte qui dépasse */
+    max-height: 0; /* Cache la hauteur du texte */
+    transition: max-height 0.3s ease-out; /* Animation de transition douce */
+}
+  
+.texte_initial {
+    display: block;
+}
+ul li{
+    list-style: circle;
+    text-align: left;
+}
+p{
+    align-items: center;
+    text-align: justify;
+}
+h2{
+    color: blueviolet;
+}
+h2:hover{
+    transform: scale(1.2);
+}
+img{
+    height: 80px;
+    width: 150px;
+}
+
+
+/*.finale{
+    background-color: #e9bae3;
+    color: #fff;
+
+}
+.fin_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+#p_fin{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #fff;
+}
+
+#imge{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    margin-right: 5px;
+}
+#image:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+#tec{
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: -35px;
+    margin-right: 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.imag{
+    height: 30px;
+    width: 30px;
+}
+
+.imag:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 20px;
+}*/
+
