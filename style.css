@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     background-color: rgb(247, 220, 247);
     font-family: Poppins;
+    animation: backgroundMove 30s linear infinite;
 }
 /*==============================Entête===========================*/
 header{
@@ -74,7 +75,17 @@ button{
 
 /*====================================Home ou presentation==============================*/
 .pres{
+    background: url('images/backgrund.jpg') center/cover no-repeat fixed;
+    animation: backgroundMove 30s linear infinite;
+    color: #fff;
     display: flex;
+}
+
+/* Animation subtile du fond */
+@keyframes backgroundMove {
+    0% { background-position: center top; }
+    50% { background-position: center bottom; }
+    100% { background-position: center top; }
 }
 #presentation{
     margin: 35px;
@@ -82,13 +93,13 @@ button{
     line-height: 25px;
 
 }
-#presentation h2{
-    color: rgb(93, 28, 150);
-    font-weight: 180;
+#h2{
+    color: rgb(232, 226, 236);
+    font-weight: 380;
     
 }
 #presentation h1{
-    line-height: 40px;
+    line-height: 50px;
 }
 #img{
     height: 450px;
